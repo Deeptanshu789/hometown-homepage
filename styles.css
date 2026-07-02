@@ -1,0 +1,122 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #251F47;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("https://t3.ftcdn.net/jpg/03/53/34/22/360_F_353342279_CLR4LmhjEOwVZjt5Yp9qlZ49zClQJUWL.jpg");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.durgapur{
+    background-color: #404E7C;
+    margin: 2px 150px -2px 150px;
+    border: 0;
+    border-radius: 14px;
+    padding: 7px 14px;
+    font-size: 15px;
+    color: white;
+}
+
+.nice{
+    background-color: #404E7C;
+    color: white;
+    font-size:10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 14px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.activity {
+    background-color: #F1FAEE;
+    margin-top: -30px;
+    padding: 40px 0 30px;
+}
+
+.activity .text {
+    color: #1D3557;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.page img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.page h4 {
+    color: #1D3557;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.page p {
+    color: #457B9D;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 220px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    background-color: #457B9D;
+    width: 400px;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 20px;
+    border-bottom:10px solid ;
+}
+
+#me{
+    width: 120px;
+    height: 150px;
+    margin: auto 0;
+    border-radius: 20px;
+}
+
+.box{
+    margin-left: 10px;
+}
